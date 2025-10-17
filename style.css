@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Bungee+Tint&family=Inter:opsz,wght@14..32,100..900&family=Josefin+Sans:wght@700&family=Lilita+One&display=swap');
+
+body{ 
+    margin: 0px 20px;
+    color: aqua;
+    font-size: 30px;
+
+}
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:900;
+}
+h2{
+
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400px;
+}
+h3{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+
+button{    
+    background-color:rgba(148, 0, 211, 0.561);
+    color:white;
+    font-size: 30px;
+    font-weight: 800;
+
+    border-radius: 100px;
+    border-color: chartreuse;
+    border-width: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 45px;
+    padding-block-end: 35px;
+    translate: 0 10px;
+    transition: .5s;
+}
+
+button:hover{
+    color: rgb(0, 247, 255);
+    background-color: darkviolet;
+}
+
+.Regresar:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 100px 10px #e07cffee;
+}
+.Com{
+    margin-block-end: 170px;
+}
+.Com:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 100px 20px #00ff37ee;
+}
+
+img{
+    margin-top: 10px;
+    transition: .5s;
+}
+img:hover{    
+    transform: scale(1.1);
+    translate: 0 -0px;
+    box-shadow: 0 0px 100px #ffffff;
+    cursor: pointer;
+    }
+
+.Envio{
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 80px;
+
+}
+span{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:900;
+    font-size: 70px;
+}
+header{
+    background: url();
+    background-size:cover;
+    background-position:center;
+    height: 200px;
+}

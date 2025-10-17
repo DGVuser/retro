@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Bungee+Tint&family=Inter:opsz,wght@14..32,100..900&family=Josefin+Sans:wght@700&family=Lilita+One&family=Wallpoet&display=swap');
+
+body{
+    background: url(https://wp-s.ru/wallpapers/7/7/small/425538985132032.jpg?hl=es);
+    background-size: cover;
+    font-family: "Wallpoet", sans-serif;  
+    font-size: 30px;
+    height: 100vh;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: rgb(171, 25, 255);
+    transition: .5s;
+}
+a:hover{
+    color:rgb(0, 255, 255);
+    transform: scale(1.1);
+}
+header nav{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: 10px;
+}
+#Menu{
+ height: 80px;
+ display: flex;
+}
+#Soporte{
+    height: 80px;
+    display: flex;
+}
+
+
+.Agradecimiento{
+    color: rgba(150, 255, 14, 0.856);
+    font-weight: 100;
+    margin-block-end:660px ;
+    text-align: center;
+
+}
+.Vuelta{
+    color: rgba(150, 255, 14, 0.856);
+    font-weight: 300;
+    text-align: center;
+}
+
+
+footer{
+    position:relative;
+    padding: 40px;
+    text-align: center;
+    margin-top: auto;
+    font-size: 10px;
+    font-weight: 100px;
+    border: 1px solid;
+    border-left: 1px;
+    border-right: 1px;
+    border-radius: 10px;
+    transition: 1s;
+}
+footer:hover{
+    transform: scale(1.1);
+    translate: 0 -20px 0;
+    box-shadow: 0 3px 0 #86ff6e;
+}
+
+
